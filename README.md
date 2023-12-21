@@ -21,14 +21,23 @@ tzdata==2023.3
 ## Contenido de la Web:
 
 >> http://127.0.0.1:8000/AppCoder/inicio/
+
 >> http://127.0.0.1:8000/AppCoder/about/
+
 >> http://127.0.0.1:8000/AppCoder/cursos/todos
+
 >> http://127.0.0.1:8000/AppCoder/cursos/buscar
+
 >> http://127.0.0.1:8000/AppCoder/cursos/
+
 >> http://127.0.0.1:8000/AppCoder/crea-profesor/
+
 >> http://127.0.0.1:8000/AppCoder/lista-profesores/
+
 >> http://127.0.0.1:8000/AppCoder/login
+
 >> http://127.0.0.1:8000/AppCoder/registro
+
 >> http://127.0.0.1:8000/AppCoder/logout
 
 

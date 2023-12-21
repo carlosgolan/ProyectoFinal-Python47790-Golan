@@ -2,13 +2,20 @@
 
 El concepto de la web diseñada es el de un creador y buscador de cursos.
 
+
 Tener en cuenta que utilice un entorno virtual (.venv).
 
+
 El requerimiento (requeriments) es el siguiente:
+
 asgiref==3.7.2
+
 Django==4.2.7
+
 sqlparse==0.4.4
+
 tzdata==2023.3
+
 
 
 ## Contenido de la Web:
@@ -30,6 +37,7 @@ tzdata==2023.3
 ## Video del funcionamiento de la web:
 
 >> https://youtu.be/Vo48cr6Jm2c
+
 
 
 ## Administrador:

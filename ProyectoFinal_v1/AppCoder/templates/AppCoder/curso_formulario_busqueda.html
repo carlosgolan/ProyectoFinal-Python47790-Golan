@@ -1,0 +1,14 @@
+
+{% extends "AppCoder/padre.html" %}
+
+
+{% block contenidoQueCambia %}
+    <body style="background-color: white;">
+        <form action="/AppCoder/cursos/buscar" method="POST">
+            {% csrf_token %}
+            <br>
+            <p style="padding-left: 100px"> Curso: <input type="text" name="curso"> </p>
+            <p style="padding-left: 265px"> <input type="submit" value="Buscar"></p>
+        </form>
+    </body>  
+{% endblock %}

@@ -1,0 +1,23 @@
+{% extends "AppCoder/padre.html" %}
+
+
+{% block contenidoQueCambia %}
+<br>
+<p style="padding-left: 100px">Listado de cursos y sus comisiones: </p>
+
+
+<!-- {{ cursos }} -->
+
+{% if cursos %}
+
+<ul style="padding-left: 120px">
+    {% for curso in cursos %}
+    <li>{{ curso.curso }} ({{ curso.camada }})</li>
+    {% endfor %}
+</ul>
+<br>
+
+{% endif %}
+
+
+{% endblock %}
